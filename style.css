@@ -1,7 +1,7 @@
 body {
   position: relative;
   margin: 0;
-  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   line-height: 32px;
   color: #f2f2f2;
@@ -37,6 +37,11 @@ button:active {
   border: black 1px solid;
 }
 
+h1 {
+  font-weight: 200;
+  color: #FFEF9B;
+}
+
 .lev {
   width: 100vw;
   margin: 0;
@@ -50,12 +55,46 @@ button:active {
   padding: 0 15px;
 }
 
+.content p {
+  margin-left: 20px;
+}
+
+.content dt {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.content dt img {
+  vertical-align: middle;
+  margin-right: 10px;
+  transition-duration: 0.2s;
+}
+
+.content dt:active img{
+  transform: rotate(180deg);
+}
+
+.content dd{
+  font-size: 22px;
+  white-space: pre-wrap;
+  margin-bottom: 15px;
+  display: none;
+}
+
+.content {
+  max-width: 1000px;
+}
+
 .center {
    display: flex;
    align-items: center;
    justify-content: center;
 }
-
+.space-around {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 .page-header, .page-footer{
   width: 100vw;
   margin: 0;
@@ -65,8 +104,6 @@ button:active {
 
 .page-header a,
 .page-footer a {
-  position: relative;
-  margin-left: 25%;
   padding-bottom: 10px;
   padding-top: 9px;
   font-weight: 500;
