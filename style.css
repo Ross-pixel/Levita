@@ -10,18 +10,21 @@ body {
 }
 
 button {
-  font: 1.5vw Montserrat, sans-serif;
+  font: 2vw Montserrat, sans-serif;
   color: black;
   background-color: #FFEF9B;
   border: #FFDA1A 1px solid;
-  border-radius: 15px;
+  border-radius: 2vw;
   min-width: 150px;
   min-height: 25px;
-  width: 20vw;
-  height: 2vw
-  transition-duration: 0.4s;
+  width: 40vw;
+  height: 4vw;
+  max-width: 400px;
+  max-height: 40px;
+  font-max-size: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
+  transition-duration: 0.2s;
 }
 
 button:hover{
@@ -36,10 +39,9 @@ button:active {
 
 .lev {
   width: 100vw;
-  max-width: 700px;
-  display: block;
-   margin-left: auto;
-   margin-right: auto;
+  margin: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .container {
