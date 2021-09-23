@@ -11,6 +11,7 @@ body {
 
 button {
   font: 1.5vw Montserrat, sans-serif;
+  color: black;
   background-color: #FFEF9B;
   border: #FFDA1A 1px solid;
   border-radius: 15px;
@@ -30,7 +31,7 @@ button:hover{
 
 button:active {
   background-color: #ffe15d;
-  border: #977a00 3px solid;
+  border: black 1px solid;
 }
 
 .lev {
