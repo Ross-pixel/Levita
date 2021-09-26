@@ -1,3 +1,5 @@
+
+
 body {
   position: relative;
   margin: 0;
@@ -21,7 +23,7 @@ button {
   height: 4vw;
   max-width: 400px;
   max-height: 40px;
-  font-max-size: 20px;
+  font-size: min(20px, 2vw);
   margin-top: 20px;
   margin-bottom: 20px;
   transition-duration: 0.2s;
@@ -40,6 +42,25 @@ button:active {
 h1 {
   font-weight: 200;
   color: #FFEF9B;
+}
+
+dl svg {
+  vertical-align: middle;
+  margin-right: 10px;
+  transition-duration: 1s;
+}
+
+.idk:active svg{
+  transform: rotate(180deg);
+  transition-duration: 1s;
+}
+
+.idk:active .hidden{
+  display: none;
+}
+
+.idk:active dd {
+  display: inline;
 }
 
 .lev {
