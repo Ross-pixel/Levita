@@ -173,3 +173,7 @@ iframe {
   padding-left: 35px;
   background-image: url("img/vk.svg");
 }
+
+p a {
+  color: white;
+}
